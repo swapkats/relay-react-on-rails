@@ -1,5 +1,5 @@
 {
-  "name": "rails_on_docker",
+  "name": "react_relay_on_rails",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

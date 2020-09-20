@@ -1,5 +1,5 @@
 # Use ruby image to build our own image
-FROM ruby:2.7
+FROM ruby:2.7.0
 
 # We specify everythink will happen within the /app folder in the container
 WORKDIR /app
