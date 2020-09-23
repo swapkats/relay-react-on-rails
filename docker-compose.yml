@@ -5,7 +5,6 @@ services:
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
-      POSTGRES_DB: react_relay_on_rails
       POSTGRES_PASSWORD: password
   web:
     build: .

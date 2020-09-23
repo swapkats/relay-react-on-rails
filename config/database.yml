@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: react_relay_on_rails_development
+  # database: relay-react-on-rails_db
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
